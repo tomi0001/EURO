@@ -1,0 +1,555 @@
+
+body {
+    background-image: url('./image/tlo3.png');
+    
+overflow: auto;
+  height:100%; 
+  width:100%; 
+    
+    
+}
+
+
+@media screen and (max-width: 991px) {
+    td.font {
+        font-size: 24px;
+    }
+    th.fontTitle {
+        color: yellow;
+        font-size: 26px;
+        font-weight: bold;
+    }
+a{
+    text-decoration: none;
+    color: transparent;
+}
+
+div.left {
+    width: 10%;
+
+    float: left;
+    
+}
+div.top {
+    height: 40%;
+}
+div.top2 {
+    height: 22%;
+}
+div.title {
+    text-align: center;
+    height: 65px;
+    padding-top: 11px;
+    color: #def3f7;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 28px;
+    font-weight: bold;
+}
+div.page {
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    min-height: 600px;
+}
+
+div.titleAddGroups {
+    background-color: hsl(67, 92%, 51%,0.8);
+    
+}
+
+div.pageAddGroups {
+    background-color: hsla(67, 92%, 51%, 0.7);
+   
+}
+div.pageCountry {
+    background-color: hsl(104, 76%, 63%,0.7);
+   
+}
+div.pageShowMatch {
+    background-color: hsla(310, 43%, 56%, 0.82);
+}
+div.titleShowMatch {
+    background-color: hsl(302, 84%, 42%,0.8);
+}
+
+
+div.pageSettingGroup {
+    background-color: hsla(310, 43%, 56%, 0.82);
+}
+div.titleSettingGroup {
+    background-color: hsl(302, 84%, 42%,0.8);
+}
+
+
+div.titleCountry {
+    background-color: hsl(104, 86%, 53%,0.8);
+    
+}
+
+div.pageMatch {
+    background-color: hsl(232, 58%, 59%,0.8);
+   
+}
+div.titleMatch {
+    background-color: hsl(232, 83%, 46%,0.8);
+    
+}
+td.center {
+   
+    
+}
+
+
+select {
+color:red;
+}
+span.error {
+    color: #E81115;
+}
+
+td.white {
+    color: #def3f7;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.is-blue {
+    background-color: hsl(204, 76%, 43%,0.8);
+}
+.is-darkGreen {
+     background-color: hsl(120, 60%, 23%,0.8);
+}
+.is-red {
+       background-color: 	hsl(348, 86%, 43%);
+}
+.is-green {
+     background-color: hsl(104, 86%, 53%,0.8);
+}
+.is-purple {
+     background-color: hsl(302, 84%, 42%,0.8);
+}
+.is-yellow {
+   background-color:  hsl(67, 92%, 51%,0.8);
+}
+.is-gray {
+    background-color:  hsl(184, 18%, 57%,0.8);
+}
+.color-blue {
+    color: #def3f7;
+    font-weight: bold;
+    font-size: 22px;
+}
+div.menu {
+    width: 1000px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+div.add {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.menu2 {
+    height: 900px;
+}
+
+div.ajax {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+div.succes {
+    background-color: rgba(49, 235, 96, 1);
+    color: #209741;
+}
+div.error {
+    background-color: rgba(243, 36, 36);
+    color: #F2BABA;    
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.link {
+    color: #888AF6;
+}
+a.link:hover {
+    color: #5355D4;
+}
+    ul.pagination {
+        padding: 0px;
+         margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+    .page-item {
+        padding: 1px;
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        margin: 0xp;
+    }
+    div.leftPaginate {
+        width: 27%;
+        float: left;
+    }
+    div.paginateAll {
+        float: left;
+    }
+    div.paginate {
+
+
+
+        
+        display: flex;
+        
+
+    }
+    
+    span.page-link {
+        color: #9FBC09;
+        padding: 10px;
+        border-radius: 18px;
+        background-color: #CFF537;
+        font-size: 19px;
+    }
+    div.paginate a {
+        color: green;
+        font-size: 19px;
+        background-color: #F3F7A0;
+        padding: 10px;
+        border-radius: 18px;
+    }
+    div.titleReturnMenu {
+    padding-top: 7px;
+    padding-left: 75px;
+    border-radius: 25px;
+    font-size: 21px;
+    color: white;
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 140, 0, 0.85);
+    
+}
+}
+
+
+@media screen and (min-width: 992px) {
+    
+    .nameGroup {
+        background-color: hsl(34, 40%, 66%,0.5);
+        width: 22%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        border-radius: 23px;
+        height: 5%;
+        color: white;
+        font-size: 22px;
+    }
+    .fontCountry {
+        color: #988038;
+        font-size: 18px;
+    }
+    
+    
+    .countrybackground {
+        background-color: purple;
+        border-radius: 20px;
+        color: white;
+    }
+    .group1 {
+        background-color: #389880;
+        border-radius: 20px;
+    }
+    .group2 {
+        background-color: #985038;
+        border-radius: 20px;
+    }
+    .group3 {
+        background-color: #983880;
+        border-radius: 20px;
+    }
+    .group4 {
+        background-color: #503898;
+        border-radius: 20px;
+    }
+    .group5 {
+        background-color: #F268BD;
+        border-radius: 20px;
+    }
+    .group6 {
+        background-color: #F03C4E;
+        border-radius: 20px;
+    }
+    .group7 {
+        background-color: #5A0642;
+        border-radius: 20px;
+    }
+    .group8 {
+        background-color: #12D348;
+        border-radius: 20px;
+    }
+    .group9 {
+        background-color: #F3B10B;
+        border-radius: 20px;
+    }
+    .group10 {
+        background-color: #7368F2;
+        border-radius: 20px;
+    }
+    td.font {
+        font-size: 16px;
+    }
+        th.fontTitle {
+        color: yellow;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    ul.pagination {
+        padding: 0px;
+         margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+    .page-item {
+        padding: 1px;
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        margin: 0xp;
+    }
+    div.leftPaginate {
+        width: 27%;
+        float: left;
+    }
+    div.paginateAll {
+        float: left;
+    }
+    div.paginate {
+
+
+
+        
+        display: flex;
+        
+
+    }
+    
+    span.page-link {
+        color: #9FBC09;
+        padding: 10px;
+        border-radius: 18px;
+        background-color: #CFF537;
+        font-size: 19px;
+    }
+    div.paginate a {
+        color: green;
+        font-size: 19px;
+        background-color: #F3F7A0;
+        padding: 10px;
+        border-radius: 18px;
+    }
+
+a{
+    text-decoration: none;
+    color: transparent;
+}
+
+div.left {
+    width: 10%;
+
+    float: left;
+    
+}
+div.top {
+    height: 40%;
+}
+div.top2 {
+    height: 22%;
+}
+div.title {
+    text-align: center;
+    height: 65px;
+    padding-top: 11px;
+    color: #def3f7;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 28px;
+    font-weight: bold;
+}
+div.page {
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    min-height: 600px;
+}
+
+
+
+div.titleAddGroups {
+    background-color: hsl(67, 92%, 51%,0.8);
+    
+}
+
+div.pageAddGroups {
+    background-color: hsla(67, 92%, 51%, 0.7);
+   
+}
+
+div.pageCountry {
+    background-color: hsl(104, 76%, 63%,0.7);
+   
+}
+div.pageShowMatch {
+    background-color: hsla(310, 43%, 56%, 0.82);
+}
+div.titleShowMatch {
+    background-color: hsl(302, 84%, 42%,0.8);
+}
+div.titleCountry {
+    background-color: hsl(104, 86%, 53%,0.8);
+    
+}
+
+div.pageSettingGroup {
+    background-color: hsl(177, 22%, 76%,0.82);
+}
+div.titleSettingGroup {
+    background-color: hsl(177, 30%, 54%,0.8);
+}
+
+
+
+div.pageMatch {
+    background-color: hsl(232, 58%, 59%,0.8);
+   
+}
+div.titleMatch {
+    background-color: hsl(232, 83%, 46%,0.8);
+    
+}
+td.center {
+   
+    
+}
+
+
+select {
+color:red;
+}
+span.error {
+    color: #E81115;
+}
+
+td.white {
+    color: #def3f7;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.is-blue {
+    background-color: hsl(204, 76%, 43%,0.8);
+}
+.is-darkGreen {
+     background-color: hsl(120, 60%, 23%,0.8);
+}
+.is-red {
+       background-color: 	hsl(348, 86%, 43%);
+}
+.is-green {
+     background-color: hsl(104, 86%, 53%,0.8);
+}
+.is-purple {
+     background-color: hsl(302, 84%, 42%,0.8);
+}
+.is-yellow {
+   background-color:  hsl(67, 92%, 51%,0.8);
+}
+.is-gray {
+    background-color:  hsl(184, 18%, 57%,0.8);
+}
+.color-blue {
+    color: #def3f7;
+    font-weight: bold;
+    font-size: 22px;
+}
+div.menu {
+    width: 1000px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+div.add {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.menu2 {
+    height: 900px;
+}
+
+div.ajax {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+div.succes {
+    background-color: rgba(49, 235, 96, 1);
+    color: #209741;
+}
+div.error {
+    background-color: rgba(243, 36, 36);
+    color: #F2BABA;    
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.link {
+    color: #888AF6;
+}
+a.link:hover {
+    color: #5355D4;
+}
+
+
+
+div.titleReturnMenu {
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 25px;
+    font-size: 26px;
+    color: white;
+    width: 50%;
+    height: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 140, 0, 0.85);
+    
+}
+
+
+}
